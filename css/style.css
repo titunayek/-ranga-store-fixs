@@ -21,9 +21,10 @@ body {
   border-right: none;
 }
 .search-button {
+ 
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #all-products {
   display: grid;
@@ -34,6 +35,7 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+ 
 }
 .single-product {
   padding: 10px;
@@ -49,8 +51,10 @@ body {
   height: 150px;
 }
 .cart {
+
+  background-color: rgb(208, 227, 230);
   width: 350px;
-  /* border: 1px solid green; */
+  border: 1px solid green;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
